@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato';
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav-part2{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part3{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 65px;
+}
+#nav h3{
+    text-transform: uppercase;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#nav button{
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 150px;
+    border: none;
+    font-weight: 600;
+}
+h1{
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+.heading{
+    margin-top: 3%;
+}
+h1>span{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(121, 48, 48);
+    font-size: 2rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.play span{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+i{
+    color: black;
+}
+#left-img{
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    border-radius: 10px;
+}
+#right-img{
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    border-radius: 10px;
+}
+#top-img{
+    height: 250px;
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    border-radius: 10px;
+}
+#bottom-img{
+    height: 200px;
+    position: absolute;
+    top: 65%;
+    left: 21.5%;
+    border-radius: 10px;
+}
